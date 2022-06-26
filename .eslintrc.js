@@ -7,6 +7,8 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'prettier',
+    'plugin:react-hooks/recommended',
+    'plugin:jsx-a11y/strict',
   ],
   parserOptions: {
     ecmaFeatures: {
