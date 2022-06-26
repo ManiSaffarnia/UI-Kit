@@ -9,6 +9,7 @@ module.exports = {
     'prettier',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/strict',
+    'plugin:sonarjs/recommended'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -20,8 +21,10 @@ module.exports = {
   plugins: [
     'react',
     'prettier',
+    'sonarjs'
   ],
   rules: {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "sonarjs/no-duplicate-string": [1],
   },
 };
